@@ -1,0 +1,172 @@
+.nav{
+    width: 99%;
+    height: 10%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(247, 157, 157);
+    /* border-radius: 2rem; */
+    position: fixed;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li{
+    margin: 1rem;
+}
+
+.nav p{
+    margin: 2rem;
+}
+
+.intro{
+text-align: center;
+padding: 12.8rem;
+/* background-image: url(); */
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Photo/cam.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+.intro h1,.intro h2,.intro button{
+    color: azure;
+}
+
+.intro button {
+    width: 20%;
+    height: 15%;
+    padding: 1.9%;
+    font-size: larger;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.intro button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);  
+}
+
+.container {
+    padding: 4rem;
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* max-width: 800px; */
+    width: 90%;
+}
+
+.profile-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-me {
+    /* padding: 20px; */
+    width: 50%;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hello {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.skills {
+    margin: 20px 0;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    flex-basis: 20%;
+    font-size: 14px;
+    color: #333;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    background-color: #c0392b;
+    height: 100%;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icons i:hover {
+    background-color: #333;
+    color: white;
+}
+
+.service{
+    text-align: center;
+}
+
+.con3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem;
+    height: 100%;
+}
+
+.con3 .d{
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 3.9rem;
+    height: 9rem;
+    box-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+}
